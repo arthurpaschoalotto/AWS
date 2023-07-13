@@ -45,6 +45,8 @@
         2. HTTP, personalizado, ::0, HTTP2
         3. HTTPS, personalizado, 0.0.0.0/00, HTTPS1
         4. HTTPS, personalizado, ::0, HTTPS2
+        5. TCP, personalizado, 8888, 0.0.0.0/00, Jupyter1
+        6. TCP, personalizado, 8888, ::00, Jupyter2
 8. Detalhes avançados: ultimo campo de texto > colar conteúdo do arquivo install.txt
 9. **Criar**
 * Seleciona EC2 criado > Conectar > Copiar conteudo **Exemplo** (contem o ssh que seŕa utilizado)
