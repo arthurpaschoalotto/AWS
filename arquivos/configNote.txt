@@ -1,0 +1,19 @@
+c = get_config()
+
+c.NotebookApp.password = u'sha1:45e47cb75d9e:49dc0b09f4e671485b6113c1e2c5a13d7d37fa78'
+
+# Kernel config
+c.IPKernelApp.pylab = 'inline'  # if you want plotting support always in your notebook
+
+# Notebook config
+
+c.NotebookApp.allow_origin = 'http://107.21.189.212' # put your public IP Address here
+c.NotebookApp.ip = '*'
+c.NotebookApp.allow_remote_access = True
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 8888
+
+# For https & letsencrypt later
+# c.NotebookApp.certfile = u'/your/cert/path/cert.pem'
+# c.NotebookApp.keyfile = u'/your/cert/path/privkey.pem'
+
