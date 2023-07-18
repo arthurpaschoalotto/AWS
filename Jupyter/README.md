@@ -40,7 +40,7 @@ Coloque o conteúdo do arquivo nginx.txt
 
 `sudo ln -s /etc/nginx/sites-available/jupyter_app.conf /etc/nginx/sites-enabled/jupyter_app.conf`
 
-`systemctl daemon-reload`
+`sudo systemctl daemon-reload`
 
 `sudo systemctl reload nginx`
 
