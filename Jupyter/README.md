@@ -5,7 +5,7 @@ Gerar arquivo de configurações: `jupyter notebook --generate-config`
 
 Crie seu password:
 
-`ipython -c "from notebook.auth import passwd:passwd()"`
+`ipython -c "from notebook.auth import passwd;passwd()"`
 **(guarde a chave gerada)**
 
 Abra o arquivo de configurações:
