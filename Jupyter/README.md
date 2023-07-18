@@ -19,6 +19,7 @@ Copie o conteúdo do anexo configNote.txt, substitua acima do Application
 Para entrar pelo Jupyter no navegador acesse: HTTP + IPV4 + 8888
 
 ### Configurar de forma mais pratica para o acesso
+
 `cd /etc/nginx/`
 
 `cd sites-available/`
@@ -26,6 +27,8 @@ Para entrar pelo Jupyter no navegador acesse: HTTP + IPV4 + 8888
 `sudo nano jupyter_app.conf`
 
 Coloque o conteúdo do arquivo nginx.txt
+
+`cd`
 
 `cd sites-enabled/`
 
