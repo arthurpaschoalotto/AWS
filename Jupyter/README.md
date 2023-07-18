@@ -12,7 +12,7 @@ Abra o arquivo de configurações:
 
 `sudo nano /home/ubuntu/.jupyter/jupyter_notebook_config.py`
 
-Copie o conteúdo do anexo configNote.txt, substitua pelo arquivo até a linha 18
+Copie o conteúdo do anexo configNote.txt, substitua acima do Application
 1. Alterar Notebook.app_password: Chave que você salvou
 2. Alterar Notebook.allow_origin: IP4 Publico
 
