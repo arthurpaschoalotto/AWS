@@ -41,11 +41,11 @@
     * Sub-rede criada
     * Nome do gurpo de segurança: projeto-GS
     * Adicionar nova regra de grupo de segurança:
-        1. HTTP, personalizado, 0.0.0.0/00, HTTP1
+        1. HTTP, personalizado, 0.0.0.0/0, HTTP1
         2. HTTP, personalizado, ::0, HTTP2
-        3. HTTPS, personalizado, 0.0.0.0/00, HTTPS1
+        3. HTTPS, personalizado, 0.0.0.0/0, HTTPS1
         4. HTTPS, personalizado, ::0, HTTPS2
-        5. TCP, personalizado, 8888, 0.0.0.0/00, Jupyter1
+        5. TCP, personalizado, 8888, 0.0.0.0/0, Jupyter1
         6. TCP, personalizado, 8888, ::00, Jupyter2
 8. Detalhes avançados: ultimo campo de texto > colar conteúdo do arquivo install.txt
 9. **Criar**
